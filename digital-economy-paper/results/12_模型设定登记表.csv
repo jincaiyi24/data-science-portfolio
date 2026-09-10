@@ -1,0 +1,8 @@
+﻿model,equation,estimation,purpose
+主模型,"Y(i,t+1)=β Digital(i,t)+γX(i,t)+αi+λt+ε(i,t)",公司FE+年份FE；公司聚类；连续变量1/99缩尾,经营结果
+事件模型,"CAR(i,t)=β Digital(i,t)+γX(i,t)+αi+λt+ε(i,t)","市场模型[-250,-30]；事件窗[0,+2]；公司FE+年份FE",外部信号
+非线性,Y=β1 Digital_z+β2 Digital_z²+γX+FE+ε,Lind-Mehlum边界斜率/IUT；转折点必须在1%-99%支持区间,U/倒U检验
+BMI调节,Y=β1D+β2BMI+β3(D×BMI)+γX+FE+ε,BMI为实质数字句中的BMI份额；仅可计算样本,内部互补
+信号差距调节,CAR=β1D+β2Gap+β3(D×Gap)+γX+FE+ε,Gap为市场可见表述减实质行动,言行差距
+市场异质性,Y=β1D+β2(D×KOSDAQ)+γX+FE+ε,主效应KOSDAQ被公司FE吸收,KOSDAQ差异
+PDS-LASSO,双向去均值后分别选择Y与D的控制变量并取并集，再后选择OLS,按公司GroupKFold；公司聚类；仅作稳健性,高维控制

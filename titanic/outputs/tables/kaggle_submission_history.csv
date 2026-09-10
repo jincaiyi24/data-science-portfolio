@@ -1,0 +1,11 @@
+ref,fileName,date,description,status,publicScore,privateScore
+56148156,submission_10_name_wcg_exact.csv,2026-09-10T16:28:20.840000,Exact leakage-safe name surname ticket woman-child-group rule,SubmissionStatus.COMPLETE,0.80382,
+56148125,submission_refined_rule_05_R0435.csv,2026-09-10T16:25:38.903000,Ticket-only child12 correction rule R0435,SubmissionStatus.COMPLETE,0.78947,
+56148122,submission_refined_rule_04_R0393.csv,2026-09-10T16:25:28.660000,Family-only child12 correction rule R0393,SubmissionStatus.COMPLETE,0.79186,
+56148114,submission_refined_rule_03_R0491.csv,2026-09-10T16:24:50.520000,Refined child12 young male correction rule R0491,SubmissionStatus.COMPLETE,0.79425,
+56148107,submission_refined_rule_02_R0484.csv,2026-09-10T16:24:26.190000,Refined child12 family ticket rule R0484,SubmissionStatus.COMPLETE,0.79665,
+56148100,submission_refined_rule_01_R0291.csv,2026-09-10T16:24:01.777000,Refined fold-safe family ticket female-master rule R0291,SubmissionStatus.COMPLETE,0.78708,
+56148008,submission_05_hybrid.csv,2026-09-10T16:18:25.180000,Conservative ML and fold-safe WCG hybrid,SubmissionStatus.COMPLETE,0.78708,
+56148004,submission_04_wcg.csv,2026-09-10T16:18:14.283000,Fold-safe woman child family ticket group rule,SubmissionStatus.COMPLETE,0.79186,
+56148001,submission_01_best_single.csv,2026-09-10T16:18:04.297000,Tuned CatBoost multi-seed group features,SubmissionStatus.COMPLETE,0.78229,
+56147993,submission_02_weighted_ensemble.csv,2026-09-10T16:17:22.440000,Leakage-safe multi-seed tuned CatBoost XGBoost ensemble,SubmissionStatus.COMPLETE,0.78229,

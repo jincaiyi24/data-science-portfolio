@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "tolerance_max_absolute_log_difference": 1e-06,
+  "max_absolute_price_difference_usd": 0.15177131217205897,
+  "mean_absolute_price_difference_usd": 0.01911656200640754,
+  "max_absolute_log_difference": 3.140843354287881e-07,
+  "row_count": 1459,
+  "id_order_equal": true,
+  "note": "Tiny differences are expected from multithreaded floating-point tree training."
+}

@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "project": "Ames_House_Prices_Portfolio_2026",
+  "checks": [
+    "required_files=16",
+    "submission_rows=1459",
+    "prediction_range=46060.61..847619.67",
+    "score_and_rank_evidence=PASS",
+    "weights_sum=1.0",
+    "full_retraining_reproducibility=PASS",
+    "figures=10",
+    "figure_pixels=PASS",
+    "markdown_links=15",
+    "python_files_compiled=5",
+    "executed_notebook=PASS",
+    "docx_structure=PASS",
+    "pdf_structure=PASS",
+    "raw_competition_data=not_bundled"
+  ]
+}

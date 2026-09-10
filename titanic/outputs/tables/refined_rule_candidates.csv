@@ -1,0 +1,6 @@
+RuleId,Base,Keys,Reference,Support,LowCut,HighCut,LowTarget,MaleHigh,OOFAccuracy,FoldMean,FoldStd,PositivePredictions,File,DiffVsCurrentWCG
+R0291,female_master,FamilyID+TicketNormalized,female_master,1,0.0,1.0,female_master,none,0.8507295173961841,0.8482556022848534,0.022984662507536908,159,submission_refined_rule_01_R0291.csv,14
+R0484,female_child12,FamilyID+TicketNormalized,female_master,1,0.0,1.0,female_master,master,0.8496071829405163,0.8462343857887139,0.023450396283908072,155,submission_refined_rule_02_R0484.csv,10
+R0491,female_child12,FamilyID+TicketNormalized,female_master,1,0.25,1.0,female_master,young,0.8473625140291807,0.8444378883936977,0.023799243833020345,154,submission_refined_rule_03_R0491.csv,9
+R0393,female_child12,FamilyID,female_master,1,0.25,1.0,female_master,none,0.8451178451178452,0.8417437700081603,0.02455677800660633,153,submission_refined_rule_04_R0393.csv,12
+R0435,female_child12,TicketNormalized,female_master,1,0.0,1.0,female_master,none,0.8428731762065096,0.8412930763919401,0.024281406110600375,154,submission_refined_rule_05_R0435.csv,13

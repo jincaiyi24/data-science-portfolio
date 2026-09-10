@@ -1,0 +1,22 @@
+﻿variable,role,definition,source,unit
+DigitalStrategy,核心解释变量,实质性数字行动句数 / 年报去重总句数,韩文DART年报,公司-年
+RelativeDigitalSignal,替代解释变量,DigitalStrategy - 行业×年份同业均值；小组不足5时退回年份均值,年报文本+KSIC,公司-年
+BMI_Reconstruction,内部路径,数字商业模式重构句数 / 总句数,韩文DART年报,公司-年
+MarketSignalDisclosure,外部路径,市场可见数字表述句数 / 总句数,韩文DART年报,公司-年
+SignalSubstanceGap,信号差距,MarketSignalDisclosure - DigitalStrategy,派生,公司-年
+SalesGrowth_t+1,因变量,下一财年的销售增长率,OpenDART合并财务报表,公司-年
+ROA_t+1,因变量,下一财年净利润 / 平均总资产,OpenDART合并财务报表,公司-年
+OperatingMargin_t+1,因变量,下一财年营业利润 / 销售额,OpenDART合并财务报表,公司-年
+"CAR[0,+2]",资本市场因变量,报告披露日起3个交易日市场模型异常收益之和,Daum/Naver日行情+KOSPI/KOSDAQ指数,事件
+FirmSize,核心控制,ln(总资产),OpenDART,公司-年
+Leverage,核心控制,总负债 / 总资产,OpenDART,公司-年
+Liquidity,核心控制,流动资产 / 流动负债,OpenDART,公司-年
+FirmAgeLog,核心控制,ln(1+公司年龄),OpenDART公司概况,公司-年
+LossDummy,核心控制,净利润<0,OpenDART,公司-年
+NegativeEquityDummy,核心控制,股东权益<=0,OpenDART,公司-年
+LogTotalSentences,文本控制,ln(1+年报去重总句数),韩文DART年报,公司-年
+AssetTurnover,扩展控制,销售额 / 平均总资产,OpenDART,公司-年
+EmployeeLog,扩展控制,ln(1+员工总数),DART年报员工表,公司-年
+LargestHolderOwnership,治理控制,最大股东及关联方持股比例,DART年报股东表,公司-年
+R&D Intensity,能力控制,年报披露的研发费 / 销售额,DART年报研发表,公司-年
+OutsideDirectorRatio,治理控制,外部董事人数 / 董事会人数,DART年报董事表,公司-年；2020+

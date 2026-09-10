@@ -1,0 +1,46 @@
+PassengerId,Name,Sex,Age,Pclass,Ticket,submission_01_best_single,submission_02_weighted_ensemble,submission_03_stacking,submission_04_wcg,submission_05_hybrid,DistinctPredictions
+893,"Wilkes, Mrs. James (Ellen Needs)",female,47.0,3,363272,0,0,0,1,1,2
+898,"Connolly, Miss. Kate",female,30.0,3,330972,0,0,1,1,1,2
+913,"Olsen, Master. Artur Karl",male,9.0,3,C 17368,1,1,1,0,1,2
+926,"Mock, Mr. Philipp Edmund",male,30.0,1,13236,1,1,1,0,1,2
+927,"Katavelas, Mr. Vassilios (Catavelas Vassilios"")""",male,18.5,3,2682,1,1,1,0,1,2
+928,"Roth, Miss. Sarah A",female,,3,342712,0,0,0,1,1,2
+929,"Cacic, Miss. Manda",female,21.0,3,315087,0,0,0,1,1,2
+931,"Hee, Mr. Ling",male,,3,1601,1,1,1,0,1,2
+942,"Smith, Mr. Lucien Philip",male,24.0,1,13695,1,1,1,0,1,2
+960,"Tucker, Mr. Gilbert Milligan Jr",male,31.0,1,2543,1,1,1,0,1,2
+964,"Nieminen, Miss. Manta Josefina",female,29.0,3,3101297,1,0,1,1,1,2
+965,"Ovies y Rodriguez, Mr. Servando",male,28.5,1,PC 17562,1,1,1,0,1,2
+981,"Wells, Master. Ralph Lester",male,2.0,2,29103,1,1,1,0,1,2
+982,"Dyker, Mrs. Adolf Fredrik (Anna Elisabeth Judith Andersson)",female,22.0,3,347072,0,0,1,1,1,2
+1030,"Drapkin, Miss. Jennie",female,23.0,3,SOTON/OQ 392083,0,0,0,1,1,2
+1036,"Lindeberg-Lind, Mr. Erik Gustaf (Mr Edward Lingrey"")""",male,42.0,1,17475,1,1,1,0,1,2
+1045,"Klasen, Mrs. (Hulda Kristina Eugenia Lofqvist)",female,36.0,3,350405,1,0,0,1,1,2
+1046,"Asplund, Master. Filip Oscar",male,13.0,3,347077,1,1,1,0,1,2
+1053,"Touma, Master. Georges Youssef",male,7.0,3,2650,1,1,1,0,1,2
+1061,"Hellstrom, Miss. Hilda Maria",female,22.0,3,7548,0,0,0,1,1,2
+1069,"Stengel, Mr. Charles Emil Henry",male,54.0,1,11778,0,0,1,0,0,2
+1073,"Compton, Mr. Alexander Taylor Jr",male,37.0,1,PC 17756,1,1,1,0,1,2
+1084,"van Billiard, Master. Walter John",male,11.5,3,A/5. 851,1,1,1,0,1,2
+1086,"Drew, Master. Marshall Brines",male,8.0,2,28220,1,1,1,0,1,2
+1094,"Astor, Col. John Jacob",male,47.0,1,PC 17757,0,1,1,0,0,2
+1122,"Sweet, Mr. George Frederick",male,14.0,2,220845,0,0,0,1,0,2
+1134,"Spedden, Mr. Frederic Oakley",male,45.0,1,16966,0,0,1,0,0,2
+1137,"Kenyon, Mr. Frederick R",male,41.0,1,17464,1,1,1,0,1,2
+1144,"Clark, Mr. Walter Miller",male,27.0,1,13508,1,1,1,0,1,2
+1160,"Howard, Miss. May Elizabeth",female,,3,A. 2. 39186,1,0,1,1,1,2
+1172,"Oreskovic, Miss. Jelka",female,23.0,3,315085,0,0,0,1,1,2
+1173,"Peacock, Master. Alfred Edward",male,0.75,3,SOTON/O.Q. 3101315,1,1,1,0,1,2
+1183,"Daly, Miss. Margaret Marcella Maggie""""",female,30.0,3,382650,0,0,0,1,1,2
+1185,"Dodge, Dr. Washington",male,53.0,1,33638,1,1,1,0,1,2
+1199,"Aks, Master. Philip Frank",male,0.83,3,392091,1,1,1,0,1,2
+1201,"Hansen, Mrs. Claus Peter (Jennie L Howard)",female,45.0,3,350026,0,0,0,1,1,2
+1205,"Carr, Miss. Jeannie",female,37.0,3,368364,0,0,0,1,1,2
+1223,"Dulles, Mr. William Crothers",male,39.0,1,PC 17580,0,0,1,0,0,2
+1231,"Betros, Master. Seman",male,,3,2622,1,1,1,0,1,2
+1236,"van Billiard, Master. James William",male,,3,A/5. 851,1,1,1,0,1,2
+1268,"Kink, Miss. Maria",female,22.0,3,315152,0,0,0,1,1,2
+1271,"Asplund, Master. Carl Edgar",male,5.0,3,347077,1,1,1,0,1,2
+1284,"Abbott, Master. Eugene Joseph",male,13.0,3,C.A. 2673,1,1,1,0,1,2
+1296,"Frauenthal, Mr. Isaac Gerald",male,43.0,1,17765,1,1,1,0,1,2
+1297,"Nourney, Mr. Alfred (Baron von Drachstedt"")""",male,20.0,2,SC/PARIS 2166,1,1,1,0,1,2

@@ -1,0 +1,12 @@
+[
+  "01_target_distribution.png",
+  "02_missingness.png",
+  "03_baseline_model_screening.png",
+  "04_model_selection_path.png",
+  "05_blend_weights.png",
+  "06_residual_by_price_decile.png",
+  "07_oof_actual_vs_predicted.png",
+  "08_prediction_distribution.png",
+  "09_kaggle_result.png",
+  "10_validation_gap.png"
+]

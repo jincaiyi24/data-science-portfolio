@@ -1,0 +1,4 @@
+Rule,OOFAccuracy,ChangedVsGender
+WCG_1_conservative,0.8114478114478114,24
+WCG_2_balanced,0.8271604938271605,40
+WCG_3_with_boys,0.8282828282828283,43

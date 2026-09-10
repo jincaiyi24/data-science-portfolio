@@ -1,0 +1,17 @@
+{
+  "best_public_score": 0.80382,
+  "rank": 460,
+  "leaderboard_rows": 9682,
+  "submission_count": 10,
+  "submission_files": 11,
+  "figure_files": 21,
+  "required_tables_present": true,
+  "best_submission_valid": true,
+  "notebook": {
+    "path": "C:\\Users\\25294\\Desktop\\titanic-machine-learning-from-disaster\\notebooks\\final_competition_results.ipynb",
+    "code_cells": 5,
+    "executed_code_cells": 5,
+    "errors": 0
+  },
+  "all_passed": true
+}

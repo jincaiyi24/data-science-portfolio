@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Credentials and local configuration
+.env
+.env.*
+kaggle.json
+*credentials*
+*secret*
+
+# Raw or generated data excluded from the public portfolio
+**/data/raw/
+**/data/prepared/
+**/raw_reports/
+**/_cache/
+**/models/
+# Temporary files
+~$*
+*.tmp
+*.log

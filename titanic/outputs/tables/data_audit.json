@@ -1,0 +1,69 @@
+{
+  "train_shape": [
+    891,
+    12
+  ],
+  "test_shape": [
+    418,
+    11
+  ],
+  "train_columns_valid": true,
+  "test_columns_valid": true,
+  "train_dtypes": {
+    "PassengerId": "int64",
+    "Survived": "int64",
+    "Pclass": "int64",
+    "Name": "object",
+    "Sex": "object",
+    "Age": "float64",
+    "SibSp": "int64",
+    "Parch": "int64",
+    "Ticket": "object",
+    "Fare": "float64",
+    "Cabin": "object",
+    "Embarked": "object"
+  },
+  "test_dtypes": {
+    "PassengerId": "int64",
+    "Pclass": "int64",
+    "Name": "object",
+    "Sex": "object",
+    "Age": "float64",
+    "SibSp": "int64",
+    "Parch": "int64",
+    "Ticket": "object",
+    "Fare": "float64",
+    "Cabin": "object",
+    "Embarked": "object"
+  },
+  "train_missing": {
+    "Age": 177,
+    "Cabin": 687,
+    "Embarked": 2
+  },
+  "test_missing": {
+    "Age": 86,
+    "Fare": 1,
+    "Cabin": 327
+  },
+  "duplicate_train_rows": 0,
+  "duplicate_test_rows": 0,
+  "train_id_unique": true,
+  "test_id_unique": true,
+  "id_overlap": 0,
+  "target_distribution": {
+    "0": 549,
+    "1": 342
+  },
+  "target_rate": 0.3838383838383838,
+  "sample_matches_test": true,
+  "name_parse_failures": 0,
+  "ticket_parse_failures": 0,
+  "source_paths": [
+    "C:\\Users\\25294\\Desktop\\titanic-machine-learning-from-disaster\\data\\raw\\train.csv",
+    "C:\\Users\\25294\\Desktop\\titanic-machine-learning-from-disaster\\data\\raw\\test.csv",
+    "C:\\Users\\25294\\Desktop\\titanic-machine-learning-from-disaster\\data\\raw\\gender_submission.csv"
+  ],
+  "metric": "Accuracy",
+  "target": "Survived"
+}

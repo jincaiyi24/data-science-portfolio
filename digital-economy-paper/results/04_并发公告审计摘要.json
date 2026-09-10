@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-08-16T23:47:45.355830",
+  "event_rows": 22319,
+  "events_with_any_concurrent": 14452,
+  "share_with_any_concurrent": 0.6475200501814597,
+  "events_with_high_relevance": 10743,
+  "share_with_high_relevance": 0.4813387696581388,
+  "events_with_same_day": 13752,
+  "share_with_same_day": 0.6161566378421972,
+  "sample_company_filings_scanned": 577507,
+  "matched_unique_filings": 24729,
+  "focal_annual_report_receipts_observed": 21400,
+  "focal_annual_report_receipt_coverage": 0.9588243200860254,
+  "query_count": 6274,
+  "cached_query_count": 6274,
+  "source": "DART public daily disclosure pages mainY.do and mainK.do",
+  "audit_scope": "All KOSPI/KOSDAQ filings from event trading day through trading day +2; filtered by stable DART corp_code",
+  "classification_note": "The focal annual-report receipt number is excluded; all other filings, including annual-report corrections, remain auditable."
+}

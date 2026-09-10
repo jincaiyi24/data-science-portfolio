@@ -1,0 +1,8 @@
+Feature,Method,Distance
+Pclass,standardized_mean_difference,0.05143218374302005
+Sex,total_variation_distance,0.011223344556677922
+Age,standardized_mean_difference,0.03978721230038168
+SibSp,standardized_mean_difference,0.07261443480071499
+Parch,standardized_mean_difference,0.012420605458431065
+Fare,standardized_mean_difference,0.06613347362062297
+Embarked,total_variation_distance,0.07847643446483066
