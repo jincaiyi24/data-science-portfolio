@@ -6,9 +6,9 @@
 
 | 项目 | 问题类型 | 主要方法 | 结果 |
 |---|---|---|---|
-| [House Prices](house-prices/) | 回归 | Elastic Net、Gradient Boosting、XGBoost、RBF-SVR 与 OOF 融合 | Kaggle Public RMSE **0.12163**；排名快照 **430 / 3,454** |
-| [Titanic](titanic/) | 二分类 | 特征工程、树模型、Boosting、多种子交叉验证、规则模型 | Kaggle Public Accuracy **0.80382**；排名快照 **460 / 9,682** |
-| [Digital Economy Paper](digital-economy-paper/) | 企业面板与文本分析 | 韩文年报句子分类、公司/年份固定效应、聚类标准误、稳健性与边界检验 | 22,654 个公司年度的基础面板；主回归 13,980 个公司年度 |
+| [House Prices](house-prices/README.md) | 回归 | Elastic Net、Gradient Boosting、XGBoost、RBF-SVR 与 OOF 融合 | Kaggle Public RMSE **0.12163**；排名快照 **430 / 3,454** |
+| [Titanic](titanic/README.md) | 二分类 | 特征工程、树模型、Boosting、多种子交叉验证、规则模型 | Kaggle Public Accuracy **0.80382**；排名快照 **460 / 9,682** |
+| [Digital Economy Paper](digital-economy-paper/README.md) | 企业面板与文本分析 | 韩文年报句子分类、公司/年份固定效应、聚类标准误、稳健性与边界检验 | 22,654 个公司年度的基础面板；主回归 13,980 个公司年度 |
 
 > Kaggle 排名是提交时的快照，会随参赛人数变化。论文结果属于条件相关性证据，不作因果解释。
 
