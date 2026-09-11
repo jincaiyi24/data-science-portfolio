@@ -1,0 +1,2 @@
+all_customers,labelled_customers,scoring_customers,observed_purchase_rate,final_model_average_propensity,high_potential_share,home_charging_share,subsidy_available_share,average_nearby_stations
+955236,668665.0,286571.0,0.1746,0.175151,0.1999,0.6921,0.6284,12.13

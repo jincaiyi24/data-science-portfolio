@@ -1,0 +1,9 @@
+method,oof_auc,weights
+Advanced + Base Blend,0.9457125397889247,advanced=0.925; base=0.075
+Advanced XGBoost,0.9456911221326657,digit + frequency + fold-safe target encoding
+Multi-seed XGBoost Bagging,0.941993194838985,"equal seeds [19, 42, 73, 101, 2026]"
+XGBoost,0.9419075227243924,XGBoost
+Weighted Blend,0.9419075227243924,LightGBM=0.000; XGBoost=1.000
+Rank Average,0.9417678805412124,equal percentile ranks
+Simple Average,0.9417666598803476,equal
+LightGBM,0.9413564181769212,LightGBM

@@ -1,0 +1,19 @@
+city_type,customer_segment,customers,share_within_city,final_model_propensity,observed_purchase_rate,rank_within_city,gap_from_previous
+Rural,High Potential,27905,0.2251,0.673631,0.6696,1,
+Rural,Eco-Motivated,11841,0.0955,0.170552,0.1702,2,-0.503079
+Rural,Infrastructure-Constrained,999,0.0081,0.107516,0.0941,3,-0.063036
+Rural,Moderate Potential,36419,0.2937,0.064432,0.0647,4,-0.043084
+Rural,Price-Sensitive,14676,0.1184,0.053997,0.0538,5,-0.010435
+Rural,Low Propensity,32143,0.2593,0.001309,0.0012,6,-0.052688
+Suburban,High Potential,53358,0.2089,0.67103,0.6718,1,
+Suburban,Eco-Motivated,24827,0.0972,0.169892,0.1672,2,-0.501138
+Suburban,Infrastructure-Constrained,1247,0.0049,0.108428,0.1026,3,-0.061464
+Suburban,Moderate Potential,77118,0.302,0.061607,0.0609,4,-0.046821
+Suburban,Price-Sensitive,24869,0.0974,0.053283,0.0523,5,-0.008324
+Suburban,Low Propensity,73958,0.2896,0.001289,0.0011,6,-0.051993
+Urban,High Potential,52470,0.1814,0.67215,0.6704,1,
+Urban,Eco-Motivated,29687,0.1026,0.168678,0.1682,2,-0.503472
+Urban,Infrastructure-Constrained,259,0.0009,0.12366,0.1506,3,-0.045018
+Urban,Moderate Potential,85368,0.2951,0.0575,0.0576,4,-0.06616
+Urban,Price-Sensitive,27022,0.0934,0.049435,0.0503,5,-0.008065
+Urban,Low Propensity,94499,0.3266,0.001273,0.0011,6,-0.048163

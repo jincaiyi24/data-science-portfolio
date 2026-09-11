@@ -1,0 +1,23 @@
+income_band,customer_segment,customers,average_propensity,propensity_rank
+120k+,High Potential,32284,0.744942,1
+120k+,Infrastructure-Constrained,296,0.132382,2
+120k+,Moderate Potential,29297,0.081792,3
+120k+,Eco-Motivated,5600,0.075135,4
+120k+,Low Propensity,14064,0.001431,5
+60k-90k,High Potential,39857,0.61446,1
+60k-90k,Eco-Motivated,28396,0.196731,2
+60k-90k,Infrastructure-Constrained,956,0.105894,3
+60k-90k,Price-Sensitive,41611,0.058522,4
+60k-90k,Moderate Potential,67113,0.043392,5
+60k-90k,Low Propensity,84915,0.001292,6
+90k-120k,High Potential,57048,0.678815,1
+90k-120k,Infrastructure-Constrained,816,0.127735,2
+90k-120k,Eco-Motivated,13577,0.109145,3
+90k-120k,Moderate Potential,88498,0.074797,4
+90k-120k,Low Propensity,47136,0.001296,5
+Under 60k,High Potential,4544,0.573269,1
+Under 60k,Eco-Motivated,18782,0.199977,2
+Under 60k,Infrastructure-Constrained,437,0.068637,3
+Under 60k,Price-Sensitive,24956,0.040801,4
+Under 60k,Moderate Potential,13997,0.005604,5
+Under 60k,Low Propensity,54485,0.001226,6

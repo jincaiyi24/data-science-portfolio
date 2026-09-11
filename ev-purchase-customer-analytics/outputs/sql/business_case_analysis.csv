@@ -1,0 +1,50 @@
+city_type,subsidy_available,home_charging_possible,customer_segment,customers,average_propensity,observed_purchase_rate,top_two_decile_share
+Urban,Yes,Yes,High Potential,26630,0.681986,0.6812,0.9414
+Rural,Yes,Yes,High Potential,27769,0.674101,0.6696,0.9376
+Suburban,Yes,Yes,High Potential,51343,0.672434,0.6732,0.939
+Urban,Yes,No,High Potential,25840,0.662013,0.6593,0.9387
+Suburban,Yes,No,High Potential,2015,0.635247,0.6367,0.9216
+Rural,Yes,No,High Potential,136,0.577797,0.6691,0.9118
+Urban,Yes,Yes,Eco-Motivated,6105,0.252398,0.249,0.1392
+Suburban,Yes,Yes,Eco-Motivated,13768,0.251626,0.2483,0.1307
+Rural,Yes,Yes,Eco-Motivated,7423,0.249674,0.2477,0.1283
+Urban,Yes,No,Eco-Motivated,15149,0.208268,0.2087,0.1
+Suburban,Yes,No,Eco-Motivated,2796,0.166264,0.1645,0.0719
+Urban,Yes,No,Infrastructure-Constrained,248,0.1273,0.1573,0.0444
+Suburban,Yes,No,Infrastructure-Constrained,1208,0.110711,0.1051,0.0232
+Rural,Yes,No,Infrastructure-Constrained,983,0.108746,0.0956,0.0326
+Rural,Yes,Yes,Moderate Potential,25130,0.089441,0.0897,0.0205
+Urban,Yes,Yes,Moderate Potential,24006,0.088402,0.0899,0.0212
+Suburban,Yes,Yes,Moderate Potential,49411,0.088007,0.0868,0.0193
+Urban,Yes,No,Moderate Potential,38498,0.067424,0.0668,0.0105
+Urban,Yes,Yes,Price-Sensitive,11584,0.055199,0.0563,0.0063
+Suburban,Yes,Yes,Price-Sensitive,23276,0.054667,0.0536,0.0052
+Rural,Yes,Yes,Price-Sensitive,14498,0.054543,0.0544,0.006
+Urban,Yes,No,Price-Sensitive,15438,0.045111,0.0459,0.0037
+Suburban,Yes,No,Moderate Potential,4550,0.045084,0.044,0.0059
+Suburban,No,No,Eco-Motivated,289,0.040025,0.045,0.0035
+Urban,No,No,Eco-Motivated,4120,0.038112,0.0367,0.0019
+Rural,No,Yes,Eco-Motivated,4417,0.037615,0.0398,0.0007
+Urban,No,Yes,Eco-Motivated,4313,0.035844,0.0371,0.0026
+Suburban,No,Yes,Eco-Motivated,7974,0.034747,0.0325,0.001
+Suburban,Yes,No,Price-Sensitive,1593,0.033051,0.0333,0.0031
+Rural,Yes,No,Price-Sensitive,178,0.00947,0.0,0.0
+Rural,No,Yes,Moderate Potential,10728,0.008856,0.0092,0.0
+Suburban,No,Yes,Moderate Potential,21667,0.008609,0.009,0.0002
+Urban,No,No,Moderate Potential,12474,0.008395,0.0081,0.0002
+Urban,No,Yes,Moderate Potential,10390,0.008288,0.009,0.0001
+Suburban,No,No,Moderate Potential,1490,0.007254,0.0087,0.0
+Rural,Yes,No,Moderate Potential,401,0.006961,0.005,0.0
+Rural,No,No,Moderate Potential,160,0.006685,0.0063,0.0
+Rural,Yes,Yes,Low Propensity,3450,0.002222,0.0023,0.0
+Suburban,Yes,Yes,Low Propensity,6533,0.002154,0.0021,0.0
+Urban,Yes,Yes,Low Propensity,3499,0.002123,0.0023,0.0
+Urban,Yes,No,Low Propensity,12084,0.002028,0.002,0.0
+Suburban,Yes,No,Low Propensity,3584,0.00196,0.0008,0.0
+Rural,Yes,No,Low Propensity,782,0.001947,0.0013,0.0
+Suburban,No,Yes,Low Propensity,55160,0.001191,0.0011,0.0
+Rural,No,Yes,Low Propensity,26494,0.001189,0.0011,0.0
+Urban,No,Yes,Low Propensity,27109,0.00118,0.0014,0.0
+Urban,No,No,Low Propensity,51807,0.001088,0.0007,0.0
+Suburban,No,No,Low Propensity,8681,0.000989,0.001,0.0
+Rural,No,No,Low Propensity,1417,0.000975,0.0,0.0

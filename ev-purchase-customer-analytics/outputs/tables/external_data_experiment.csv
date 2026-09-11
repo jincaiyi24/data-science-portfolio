@@ -1,0 +1,2 @@
+experiment,training_rows,evaluation_rows,competition_train_auc,decision
+Original-data four-feature logistic transfer,10000,668665,0.9376194176484385,Rejected: weaker than competition-trained baselines

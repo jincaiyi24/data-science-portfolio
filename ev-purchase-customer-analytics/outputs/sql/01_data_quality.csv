@@ -1,0 +1,10 @@
+check_name,check_value
+feature_rows,955236.0
+feature_distinct_ids,955236.0
+train_rows,668665.0
+test_rows,286571.0
+train_target_nulls,0.0
+test_target_non_nulls,0.0
+prediction_nulls,0.0
+prediction_out_of_range,0.0
+segment_nulls,0.0

@@ -1,0 +1,21 @@
+# Project Audit
+
+- Source files: `train.csv`, `test.csv`, `sample_submission.csv` from Kaggle competition `playground-series-s6e9`.
+- External-data check: public CC0 EV source dataset, used only for a rejected transfer experiment (AUC 0.937619), not final training.
+- Rows: 668,665 train; 286,571 test.
+- Target / ID: `Will_Buy_EV` / `id`.
+- Missing cells: 0 train; 0 test.
+- Duplicate IDs: 0 train; 0 test.
+- CV: 5-fold stratified, seed 42; stability seeds [19, 42, 73, 101, 2026].
+- Models: Dummy, Logistic Regression, Random Forest, XGBoost, LightGBM, CatBoost.
+- Feature versions: BASE, FE_V1, FE_V2.
+- Optuna: 12 trials per selected model, 3-fold stratified CV on up to 180,000 rows.
+- Business model: Multi-seed XGBoost Bagging; OOF ROC-AUC 0.941993.
+- Kaggle method: Advanced + Base Blend; OOF ROC-AUC 0.945713.
+- Submission: `outputs/submissions/submission_final.csv`.
+- Kaggle result: Public ROC-AUC 0.94589; rank 458/1,509 (top 30.4%).
+- Metric sources: `outputs/tables/*.csv`; audit sources: `outputs/audit/*`; plots: `outputs/figures/*`.
+- MySQL execution: MySQL 8.0.42, database `ev_customer_analytics`, completed on 2026-09-12.
+- MySQL tables: 955,236 feature rows; 955,236 final-model prediction rows; 955,236 existing business-segment rows; 55 model-metric rows.
+- Database QA: 13/13 checks PASS; 13 analytical exports completed; 18/18 Python-SQL reconciliations PASS with zero absolute difference.
+- Prediction governance: training rows use the final blend's OOF probabilities; test rows use its held-out test probabilities. Existing customer segments continue to use the multi-seed business model rather than competition-only features.

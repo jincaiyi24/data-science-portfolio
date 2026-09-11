@@ -1,0 +1,14 @@
+feature,type,shift_metric,shift_value,ks_statistic
+Range_Anxiety_Level,categorical,total_variation,0.001710963145337423,
+Subsidy_Available,categorical,total_variation,0.0014545106686335574,
+City_Type,categorical,total_variation,0.0013468939989440265,
+Current_Car_Type,categorical,total_variation,0.0007498103523291798,
+Home_Charging_Possible,categorical,total_variation,0.0006618235805879169,
+Gender,categorical,total_variation,0.000199958607957928,
+Charging_Stations_Near_Work,numeric,PSI,4.6590318143852604e-05,0.0030046105775260457
+Annual_Income_USD,numeric,PSI,4.507150736896084e-05,0.0016392086251205695
+Charging_Stations_Near_Home,numeric,PSI,2.6891478753342624e-05,0.0015786605344287885
+Daily_Commute_km,numeric,PSI,2.680542877417951e-05,0.0010670452585230805
+Age,numeric,PSI,2.3906268638776037e-05,0.002293085754303814
+Number_of_Cars_Owned,numeric,PSI,2.213235547793587e-05,0.0016604518619879882
+Environmental_Concern_Level,numeric,PSI,1.929375011084628e-05,0.0012713795475686185

@@ -1,0 +1,26 @@
+{
+  "train_rows": 668665,
+  "test_rows": 286571,
+  "feature_count": 13,
+  "numerical_count": 7,
+  "categorical_count": 6,
+  "train_duplicate_rows": 0,
+  "test_duplicate_rows": 0,
+  "train_duplicate_ids": 0,
+  "test_duplicate_ids": 0,
+  "train_duplicate_feature_rows": 0,
+  "test_duplicate_feature_rows": 0,
+  "train_test_exact_feature_overlap": 0,
+  "missing_cells_train": 0,
+  "missing_cells_test": 0,
+  "constant_columns": [],
+  "near_constant_columns": [],
+  "target_counts": {
+    "No": 551886,
+    "Yes": 116779
+  },
+  "positive_rate": 0.17464500160768098,
+  "max_shift_feature": "Range_Anxiety_Level",
+  "max_shift_value": 0.001710963145337423,
+  "schema_match": true
+}

@@ -1,0 +1,14 @@
+query_name,output_file,rows_exported,elapsed_seconds,status
+data_quality,01_data_quality.csv,9,2.473,PASS
+customer_profile,02_customer_profile.csv,48,2.246,PASS
+purchase_propensity,03_purchase_propensity.csv,61,29.859,PASS
+segment_analysis,04_segment_analysis.csv,6,4.114,PASS
+join_coverage,05_join_coverage.csv,2,5.81,PASS
+city_segment_ranking,06_city_segment_ranking.csv,18,8.126,PASS
+income_segment_ranking,07_income_segment_ranking.csv,22,8.258,PASS
+prediction_deciles,08_prediction_deciles.csv,20,6.258,PASS
+top_decile_profile,09_top_decile_profile.csv,38,3.793,PASS
+model_vs_actual,10_model_vs_actual.csv,10,10.521,PASS
+model_validation,11_model_validation.csv,55,0.005,PASS
+business_kpi,12_business_kpi.csv,1,13.911,PASS
+business_case_analysis,business_case_analysis.csv,49,12.249,PASS

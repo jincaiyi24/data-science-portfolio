@@ -1,0 +1,56 @@
+experiment_group,model_name,model_version,validation_type,seed,fold,roc_auc,std_roc_auc,accuracy,f1_score,log_loss,fit_seconds,parameters
+advanced_model_folds,Advanced XGBoost,digit_frequency_fold_safe_te,5-fold stratified CV fold,42,3.0,0.94655376,,,,,33.897,"{""best_iteration"": 1708}"
+advanced_model_folds,Advanced XGBoost,digit_frequency_fold_safe_te,5-fold stratified CV fold,42,4.0,0.94590083,,,,,31.489,"{""best_iteration"": 1442}"
+advanced_model_folds,Advanced XGBoost,digit_frequency_fold_safe_te,5-fold stratified CV fold,42,5.0,0.9458808,,,,,33.508,"{""best_iteration"": 1541}"
+ensemble,Advanced + Base Blend,final_candidate,OOF ensemble comparison,42,,0.94571254,,,,,,"{""weights_or_method"": ""advanced=0.925; base=0.075""}"
+ensemble,Advanced XGBoost,final_candidate,OOF ensemble comparison,42,,0.94569112,,,,,,"{""weights_or_method"": ""digit + frequency + fold-safe target encoding""}"
+advanced_model_folds,Advanced XGBoost,digit_frequency_fold_safe_te,5-fold stratified CV fold,42,2.0,0.94539604,,,,,31.616,"{""best_iteration"": 1543}"
+advanced_model_folds,Advanced XGBoost,digit_frequency_fold_safe_te,5-fold stratified CV fold,42,1.0,0.94476045,,,,,33.651,"{""best_iteration"": 1652}"
+model_folds,LightGBM,BASE,5-fold stratified CV fold,42,3.0,0.94280656,,0.89925448,0.70014021,0.22484981,7.034,
+model_folds,XGBoost,BASE,5-fold stratified CV fold,42,3.0,0.94244922,,0.89892547,0.69956213,0.22548204,12.243,
+model_folds,LightGBM,BASE,5-fold stratified CV fold,42,4.0,0.94223802,,0.8987161,0.69847065,0.22574884,6.748,
+model_folds,CatBoost,BASE,5-fold stratified CV fold,42,3.0,0.94211154,,0.89842447,0.69459058,0.22614843,86.125,
+ensemble,Multi-seed XGBoost Bagging,final_candidate,OOF ensemble comparison,42,,0.94199319,,,,,,"{""weights_or_method"": ""equal seeds [19, 42, 73, 101, 2026]""}"
+model_folds,XGBoost,BASE,5-fold stratified CV fold,42,4.0,0.94194146,,0.89790852,0.69709139,0.22628923,12.237,
+stability,XGBoost,BASE_multiseed,5-fold seed summary,42,,0.94191586,0.00085647,,,,,"{""min_auc"": 0.9406376243479526, ""max_auc"": 0.9428846214391816}"
+stability,XGBoost,BASE_multiseed,5-fold seed summary,19,,0.94191114,0.00077486,,,,,"{""min_auc"": 0.9411839000797192, ""max_auc"": 0.9429693248707812}"
+ensemble,Weighted Blend,final_candidate,OOF ensemble comparison,42,,0.94190752,,,,,,"{""weights_or_method"": ""LightGBM=0.000; XGBoost=1.000""}"
+ensemble,XGBoost,final_candidate,OOF ensemble comparison,42,,0.94190752,,,,,,"{""weights_or_method"": ""XGBoost""}"
+stability,XGBoost,BASE_multiseed,5-fold seed summary,2026,,0.94189847,0.00078861,,,,,"{""min_auc"": 0.9411266972131664, ""max_auc"": 0.9431834305528246}"
+stability,XGBoost,BASE_multiseed,5-fold seed summary,73,,0.94188713,0.00092574,,,,,"{""min_auc"": 0.9407533486918132, ""max_auc"": 0.9431654706518204}"
+stability,XGBoost,BASE_multiseed,5-fold seed summary,101,,0.94188373,0.00076696,,,,,"{""min_auc"": 0.9411134452888033, ""max_auc"": 0.9428692343036938}"
+model_folds,LightGBM,BASE,5-fold stratified CV fold,42,5.0,0.94177392,,0.89899277,0.69924745,0.22652664,6.971,
+ensemble,Rank Average,final_candidate,OOF ensemble comparison,42,,0.94176788,,,,,,"{""weights_or_method"": ""equal percentile ranks""}"
+ensemble,Simple Average,final_candidate,OOF ensemble comparison,42,,0.94176666,,,,,,"{""weights_or_method"": ""equal""}"
+model_comparison,LightGBM,BASE,5-fold stratified CV summary,42,,0.94173589,0.00090857,0.89845737,0.69777642,0.22665191,36.156,
+model_folds,CatBoost,BASE,5-fold stratified CV fold,42,4.0,0.94168897,,0.89799825,0.69397644,0.22671418,86.182,
+model_folds,LightGBM,BASE,5-fold stratified CV fold,42,2.0,0.94148033,,0.89793843,0.69768987,0.22713007,7.674,
+model_comparison,XGBoost,BASE,5-fold stratified CV summary,42,,0.94144908,0.00081234,0.89829436,0.6978612,0.22716382,62.846,
+model_folds,XGBoost,BASE,5-fold stratified CV fold,42,5.0,0.94138344,,0.89912737,0.7001156,0.22722606,12.34,
+feature_ablation,XGBoost,BASE,5-fold feature ablation summary,42,,0.94137106,0.00092113,0.89805358,0.69493814,0.22738155,25.444,"{""feature_count"": 13}"
+ensemble,LightGBM,final_candidate,OOF ensemble comparison,42,,0.94135642,,,,,,"{""weights_or_method"": ""LightGBM""}"
+feature_ablation,XGBoost,FE_V1,5-fold feature ablation summary,42,,0.94134036,0.00093105,0.89805358,0.69480448,0.22742915,31.414,"{""feature_count"": 18}"
+feature_ablation,XGBoost,FE_V2,5-fold feature ablation summary,42,,0.94134017,0.00094636,0.89811789,0.69485631,0.22739249,44.348,"{""feature_count"": 25}"
+model_folds,XGBoost,BASE,5-fold stratified CV fold,42,2.0,0.94116841,,0.89828988,0.69929699,0.22765375,12.154,
+model_comparison,CatBoost,BASE,5-fold stratified CV summary,42,,0.9411338,0.00083311,0.89797731,0.6934657,0.22773558,432.272,
+model_folds,CatBoost,BASE,5-fold stratified CV fold,42,5.0,0.94104294,,0.89902268,0.69556788,0.22779027,86.911,
+model_folds,CatBoost,BASE,5-fold stratified CV fold,42,2.0,0.94089448,,0.89762437,0.69421303,0.22819049,87.082,
+model_folds,LightGBM,BASE,5-fold stratified CV fold,42,1.0,0.94038062,,0.89738509,0.69333393,0.22900416,7.729,
+model_folds,XGBoost,BASE,5-fold stratified CV fold,42,1.0,0.94030288,,0.89722058,0.6932399,0.22916803,13.872,
+model_folds,CatBoost,BASE,5-fold stratified CV fold,42,1.0,0.93993106,,0.89681679,0.68898055,0.22983452,85.972,
+model_folds,Logistic Regression,BASE,5-fold stratified CV fold,42,3.0,0.93908197,,0.85853155,0.68807808,0.32390215,4.423,
+model_folds,Random Forest,BASE,5-fold stratified CV fold,42,3.0,0.93878606,,0.84484757,0.67532508,0.32319625,13.898,
+model_folds,Logistic Regression,BASE,5-fold stratified CV fold,42,4.0,0.93863027,,0.85785857,0.68822883,0.32646586,4.491,
+model_folds,Random Forest,BASE,5-fold stratified CV fold,42,4.0,0.93821748,,0.84482514,0.67474374,0.32623802,13.255,
+model_folds,Logistic Regression,BASE,5-fold stratified CV fold,42,5.0,0.93807917,,0.85682666,0.68615077,0.32681334,4.34,
+model_folds,Logistic Regression,BASE,5-fold stratified CV fold,42,2.0,0.93804025,,0.85689396,0.68622114,0.32786974,4.443,
+model_folds,Random Forest,BASE,5-fold stratified CV fold,42,2.0,0.93798521,,0.84362872,0.67268743,0.3260597,14.0,
+model_comparison,Random Forest,BASE,5-fold stratified CV summary,42,,0.93779083,0.00084966,0.84430021,0.67376476,0.32600009,68.517,
+model_folds,Random Forest,BASE,5-fold stratified CV fold,42,5.0,0.9374135,,0.84410729,0.67313662,0.32768839,13.683,
+model_folds,Logistic Regression,BASE,5-fold stratified CV fold,42,1.0,0.93666022,,0.85603404,0.68376012,0.32907192,5.135,
+model_folds,Random Forest,BASE,5-fold stratified CV fold,42,1.0,0.93655188,,0.84409233,0.67293092,0.32681808,13.682,
+model_folds,Dummy,BASE,5-fold stratified CV fold,42,1.0,0.5,,0.82536098,0.0,0.46316625,1.241,
+model_folds,Dummy,BASE,5-fold stratified CV fold,42,2.0,0.5,,0.8253535,0.0,0.46317787,1.201,
+model_folds,Dummy,BASE,5-fold stratified CV fold,42,3.0,0.5,,0.8253535,0.0,0.46317787,1.215,
+model_folds,Dummy,BASE,5-fold stratified CV fold,42,4.0,0.5,,0.8253535,0.0,0.46317787,1.172,
+model_folds,Dummy,BASE,5-fold stratified CV fold,42,5.0,0.5,,0.8253535,0.0,0.46317787,1.202,

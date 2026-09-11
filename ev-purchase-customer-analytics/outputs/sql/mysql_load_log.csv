@@ -1,0 +1,5 @@
+table,rows_loaded,columns_loaded,chunk_size,attempts,elapsed_seconds,status
+ev_customer_features,955236,16,10000,1,35.843,PASS
+ev_model_predictions,955236,8,10000,1,29.126,PASS
+ev_customer_segments,955236,6,10000,1,23.453,PASS
+ev_model_metrics,55,16,10000,1,0.028,PASS

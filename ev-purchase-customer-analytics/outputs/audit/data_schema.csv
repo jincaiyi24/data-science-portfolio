@@ -1,0 +1,16 @@
+column,dtype,role,train_non_null,train_unique,in_test
+id,int64,id,668665,668665,True
+Age,int64,numerical,668665,45,True
+Annual_Income_USD,float64,numerical,668665,13214,True
+Daily_Commute_km,float64,numerical,668665,805,True
+Number_of_Cars_Owned,int64,numerical,668665,4,True
+Charging_Stations_Near_Home,int64,numerical,668665,15,True
+Charging_Stations_Near_Work,int64,numerical,668665,20,True
+Environmental_Concern_Level,float64,numerical,668665,5,True
+Gender,object,categorical,668665,3,True
+City_Type,object,categorical,668665,3,True
+Current_Car_Type,object,categorical,668665,4,True
+Home_Charging_Possible,object,categorical,668665,2,True
+Subsidy_Available,object,categorical,668665,2,True
+Range_Anxiety_Level,object,categorical,668665,3,True
+Will_Buy_EV,object,target,668665,2,False

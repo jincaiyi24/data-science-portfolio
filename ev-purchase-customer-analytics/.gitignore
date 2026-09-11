@@ -1,0 +1,34 @@
+# Competition data and row-level derivatives
+data/raw/
+data/processed/
+data/external/
+outputs/dashboard/customer_overview.csv
+outputs/dashboard/purchase_propensity.csv
+
+# Predictions, trained artifacts, and downloaded leaderboard data
+outputs/models/
+outputs/submissions/
+outputs/research/
+outputs/audit/leaderboard.csv
+outputs/audit/current_leaderboard/
+outputs/audit/*.zip
+
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+kaggle.json
+**/kaggle.json
+
+# Python and notebook artifacts
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*.joblib
+*.cbm
+.ipynb_checkpoints/
+
+# Local build products
+*.zip
+.github-safe-build/
+kaggle_release/

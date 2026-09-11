@@ -1,0 +1,14 @@
+feature,mean_abs_shap,importance_share
+Environmental_Concern_Level,1.7227796,0.37798917
+Subsidy_Available,1.6620955,0.36467466
+Annual_Income_USD,0.55608815,0.12200939
+Range_Anxiety_Level,0.19144496,0.04200428
+Age,0.1102337,0.024185998
+Daily_Commute_km,0.09531203,0.020912085
+Home_Charging_Possible,0.07379285,0.016190637
+Charging_Stations_Near_Home,0.057347,0.012582308
+Charging_Stations_Near_Work,0.026502704,0.005814867
+Current_Car_Type,0.02091758,0.0045894543
+Number_of_Cars_Owned,0.016648259,0.0036527372
+Gender,0.013382891,0.002936294
+City_Type,0.011203685,0.002458162
